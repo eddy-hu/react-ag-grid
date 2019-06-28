@@ -1,0 +1,34 @@
+@import '~antd/dist/antd.css';
+
+.container{
+  background: '#fff';
+   padding: 24;
+   
+}
+
+.logo {
+    width: 100px;
+    height: 41px !important;
+    margin: 10px 30px 10px 30px!important;
+    float: left;
+    position: relative;
+  }
+.avatar{
+  float: right;
+  position: relative;
+}
+
+.avatar .p{
+  float: right;
+  position: relative;
+}
+
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+  color: rgba(255, 255, 255, 0.65);
+  background: #124191;
+}
+
+.header{
+  background: #124191;
+}
+

@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.css';
+
+
+.logo {
+    width: 120px;
+    height: 31px;
+    margin: 5px 45px 0px 30px;
+    float: left;
+    position: relative;
+  }
+.avatar{
+  float: right;
+  position: relative;
+}
+
+.avatar .p{
+  float: right;
+  position: relative;
+}
+
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+  color: rgba(255, 255, 255, 0.65);
+  background: #124191;
+}
+
+.header{
+  background: #124191;
+}
+
+.icons{
+  margin-right: 20px;
+}
+.avatarIcon{
+  margin-right: 10px;
+}
