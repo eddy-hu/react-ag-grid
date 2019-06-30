@@ -1,15 +1,15 @@
-@import '~antd/dist/antd.css';
 
 .container{
   background: '#fff';
    padding: 24;
-   
+   min-height: 600px;
+  
 }
 
 .logo {
     width: 100px;
     height: 41px !important;
-    margin: 10px 30px 10px 30px!important;
+    margin: 10px 30px 10px 10px!important;
     float: left;
     position: relative;
   }

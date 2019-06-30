@@ -5,6 +5,7 @@ const REST_URL = "https://jobs.github.com/positions.json";
 
 export default class JobsService extends React.Component {
   getJobs(param) {
+    console.log("getJobs",param);
     return new Promise((resolve, reject) => {
       axios({
         method: "get",

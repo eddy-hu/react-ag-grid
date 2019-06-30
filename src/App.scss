@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham.scss";
+
+
+.ag-theme-material .ag-icon-checkbox-checked {
+    color: rgb(24, 144, 255) !important;
+  }
+
+  $primary-color:#124191!important;

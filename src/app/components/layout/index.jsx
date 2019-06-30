@@ -6,7 +6,7 @@ import HeaderBar from "../header/header-bar.jsx";
 import Logo from "../../images/logo/GitHub_Logo_White.png";
 
 const { SubMenu } = Menu;
-const { Header, Content, Sider, Footer } = Layout;
+const { Header, Content, Footer } = Layout;
 
 class MainLayout extends React.Component {
   render() {
@@ -40,7 +40,7 @@ class MainLayout extends React.Component {
             </Breadcrumb>
             <div className="container">{this.props.children}</div>
           </Content>
-          <Footer style={{ textAlign: "center" }}>
+          <Footer className="footer" style={{ textAlign: "center" }}>
             Demo by Eddy Hu ©{new Date().getFullYear()}
           </Footer>
         </Layout>
