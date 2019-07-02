@@ -25,9 +25,12 @@ class MainLayout extends React.Component {
                 <Link to="/">All jobs</Link>
               </Menu.Item>
               <Menu.Item key="2">
-                <a href="https://jobs.github.com/post">Post a job</a>
+                <Link to="/MyJobs">My jobs</Link>
               </Menu.Item>
               <Menu.Item key="3">
+                <a href="https://jobs.github.com/post">Post a job</a>
+              </Menu.Item>
+              <Menu.Item key="4">
                 <a href="https://jobs.github.com/faq">How it works</a>
               </Menu.Item>
               <HeaderBar />
