@@ -37,10 +37,6 @@ class MyGrid extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if(this.props.applyBtnClicked) {
-      console.log("if(this.props.applyBtnClicked) {",this.props.applyBtnClicke)
-      this.addAllToApplied();
-    }
     if (this.props !== nextProps) {
       this.setState({
         columnDefs: nextProps.columnDefs,
